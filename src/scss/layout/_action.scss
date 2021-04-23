@@ -1,7 +1,8 @@
 .action {
   background-color: $light-blue-background;
   height: 100vh;
-  max-height: 624px;
+  width: 100%;
+  /*max-height: 624px;*/
   text-align: center;
   &__title {
     width: 100%;
@@ -10,20 +11,20 @@
     font-size: 24px;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
 .reasons-container {
-  height: 100vh;
   width: 100%;
   display: grid;
   grid-template-columns: 180px;
-  grid-template-rows: 95px 95px 95px 45px 50px;
-  grid-gap: 45px;
+  grid-template-rows: 20vh 20vh 20vh;
+  grid-gap: 10px;
   justify-content: center;
+  padding-bottom: 45px;
 }
 .reasons {
   height: 100%;
@@ -38,33 +39,35 @@
     font-family: $main-font;
     font-size: 18px;
     font-weight: normal;
+    line-height: 2rem;
     color: $brown-text;
   }
-  &__link {
-    display: block;
-    height: 45px;
-    width: 184px;
-    background-color: $orange;
-    border-radius: 22.5px;
-    color: white;
-    font-family: $main-font;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 45px;
-    &:hover {
-      background-color: white;
-      color: $orange;
-      border: 2px solid $orange;
-      transform: scale(1.2);
-      transition: all 0.3s ease 0.1s;
-    }
+}
+.action__button--link {
+  display: inline-block;
+  height: 45px;
+  width: 184px;
+  background-color: $orange;
+  border-radius: 22.5px;
+  color: white;
+  font-family: $main-font;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 45px;
+  &:hover {
+    background-color: white;
+    color: $orange;
+    border: 2px solid $orange;
+    transform: scale(1.2);
+    transition: all 0.3s ease 0.1s;
   }
 }
+
 .circle-scroll-up {
   width: 45px;
   height: 45px;
-  transform: translate(150%, -20px);
+  margin: 0 auto;
+  transform: translateY(80px);
   background-color: white;
   border-radius: 50%;
-  line-height: 50px;
 }
