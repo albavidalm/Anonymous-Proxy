@@ -1,0 +1,43 @@
+.footer {
+  background-color: $dark-blue-background;
+  height: 100%;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  color: white;
+  font-family: $main-font;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-between;
+}
+
+.footer__aside,
+.footer__social {
+  padding-bottom: 30px;
+}
+
+.footer__aside--related,
+.footer__social--rrss {
+  padding: 5px;
+}
+
+.footer__aside--link,
+.footer__social--link {
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    color: $orange;
+  }
+}
+.footer__copy--heart {
+  color: $orange;
+}
+
+.footer__copy {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
