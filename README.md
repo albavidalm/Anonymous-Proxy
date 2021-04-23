@@ -2,11 +2,11 @@
 
 En este proyecto he desarrollado una página web a partir de un diseño dado donde he aplicado:
 
-· Estructura y semántica en el HTML.
-· Sass.
-· Flexbox y CSS Grid.
-· Media queries.
-· Transiciones.
+- Estructura y semántica en el HTML.
+- Sass.
+- Flexbox y CSS Grid.
+- Media queries.
+- Transiciones.
 
 ### Pasos para arrancar el proyecto:
 
@@ -54,49 +54,3 @@ npm run deploy
 ```
 
 son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
