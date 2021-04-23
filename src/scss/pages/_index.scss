@@ -27,10 +27,54 @@
   }
 }
 
-.circle-scroll {
-  width: 45px;
-  height: 45px;
-  background-color: white;
-  border-radius: 50%;
-  line-height: 50px;
+.looking {
+  height: 376px;
+  margin-left: 15px;
+  margin-right: 15px;
+  &__subtitle {
+    padding-top: 30px;
+    font-family: $main-font;
+    font-size: 14px;
+    color: $blue-title;
+    font-weight: normal;
+    padding-bottom: 5px;
+  }
+  &__title {
+    max-width: 290px;
+    font-family: $second-font;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+  }
+  &__text {
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.67;
+    color: $brown-text;
+    padding-bottom: 30px;
+  }
+  &__go {
+    height: 45px;
+    width: 76px;
+    background-color: white;
+    border: 2px $orange solid;
+    border-radius: 22.5px;
+    &:hover {
+      background-color: $orange;
+      transform: scale(1.2);
+      transition: all 0.3s ease 0.1s;
+    }
+    &--link {
+      font-family: $main-font;
+      color: $orange;
+      text-decoration: none;
+      font-size: 20px;
+      &:hover {
+        color: white;
+        transform: scale(1.2);
+        transition: all 0.3s ease 0.1s;
+      }
+    }
+  }
 }
