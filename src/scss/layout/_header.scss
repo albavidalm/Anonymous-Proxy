@@ -1,0 +1,13 @@
+.header-burger {
+  background-color: $burger-background-color;
+  width: 44px;
+  height: 44px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.burger-ico__link {
+  line-height: 44px;
+  padding-left: 14px;
+}

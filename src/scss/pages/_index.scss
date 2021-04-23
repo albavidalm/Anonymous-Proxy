@@ -1,0 +1,36 @@
+.hero {
+  width: 100vw;
+  height: 568px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    padding-top: 284px;
+    color: white;
+    font-family: $second-font;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__claim {
+    color: white;
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 45px;
+  }
+}
+
+.circle-scroll {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+  line-height: 50px;
+}
