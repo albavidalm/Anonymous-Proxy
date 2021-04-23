@@ -1,0 +1,33 @@
+.action {
+  background-color: $light-blue-background;
+  height: 100vh;
+  max-height: 624px;
+  text-align: center;
+  &__title {
+    font-family: $second-font;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+}
+
+.reasons {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 180px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 45px;
+  &__title {
+    font-family: $second-font;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &__text {
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: normal;
+    color: $brown-text;
+  }
+}
