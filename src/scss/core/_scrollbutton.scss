@@ -1,17 +1,9 @@
-/* .circle-scroll {
-  width: 45px;
-  height: 45px;
-  background-color: white;
-  border-radius: 50%;
-}*/
-
-.scroll-down__link {
-  display: block;
+.scroll-button {
+  display: inline-block; /*El superior está centrado por el Flex, Centra al inferior*/
   height: 45px;
   width: 45px;
   background-color: white;
   border-radius: 50%;
-  color: $orange;
   line-height: 50px;
   &:hover {
     background-color: $burger-background-color;

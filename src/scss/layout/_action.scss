@@ -63,11 +63,6 @@
   }
 }
 
-.circle-scroll-up {
-  width: 45px;
-  height: 45px;
-  margin: 0 auto;
-  transform: translateY(80px);
-  background-color: white;
-  border-radius: 50%;
+.scroll-button .scroll-button__link--up {
+  transform: translateY(100px);
 }
