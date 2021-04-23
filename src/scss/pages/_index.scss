@@ -55,26 +55,23 @@
     padding-bottom: 30px;
   }
   &__go {
+    display: block;
     height: 45px;
     width: 76px;
     background-color: white;
-    border: 2px $orange solid;
     border-radius: 22.5px;
+    color: $orange;
+    font-family: $main-font;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    border: 2px $orange solid;
     &:hover {
       background-color: $orange;
+      color: $orange;
       transform: scale(1.2);
       transition: all 0.3s ease 0.1s;
-    }
-    &--link {
-      font-family: $main-font;
-      color: $orange;
-      text-decoration: none;
-      font-size: 20px;
-      &:hover {
-        color: white;
-        transform: scale(1.2);
-        transition: all 0.3s ease 0.1s;
-      }
     }
   }
 }
