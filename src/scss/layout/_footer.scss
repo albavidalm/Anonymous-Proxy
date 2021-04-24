@@ -1,15 +1,31 @@
 .footer {
   background-color: $dark-blue-background;
+  width: 100vw;
   height: 100%;
-  width: 100%;
   padding-bottom: 45px;
-  color: white;
+  color: $white;
   font-family: $main-font;
   font-weight: lighter;
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-content: space-between;
+  &__info {
+    width: 100vw;
+    margin: 0 auto;
+    font-size: 16px;
+    @include tablet {
+      width: 90%;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 60px;
+      align-items: baseline;
+    }
+    @include desktop {
+      width: 100%;
+    }
+  }
   &__aside,
   &__social {
     padding-bottom: 30px;
@@ -27,17 +43,21 @@
   }
   &__copy {
     height: 40px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     &--heart {
       color: $orange;
     }
+    @include tablet {
+      order: -10;
+    }
   }
 }
 
 .scroll-button.up {
   position: relative;
-  margin: 0 auto;
   top: -20px;
+  margin: 0 auto;
 }

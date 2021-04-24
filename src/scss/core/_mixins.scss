@@ -8,3 +8,13 @@
     @content;
   }
 }
+
+.wrapper {
+  margin: 0 15px;
+  @include tablet {
+    margin: 0 39px;
+  }
+  @include desktop {
+    max-width: 730px;
+  }
+}
