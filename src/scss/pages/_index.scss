@@ -1,6 +1,7 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  padding-bottom: 55px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: 50% 50%;
@@ -10,7 +11,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding-bottom: 55px;
   &__title {
     color: white;
     font-family: $second-font;
@@ -39,17 +39,24 @@
 }
 
 .looking {
+  width: 100vw;
   height: 376px;
+  padding-top: 30px;
+  padding-right: 25px;
+  text-align: left;
   @include tablet {
-    height: 330px;
+    min-height: 330px;
+    max-width: 690px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   @include desktop {
-    height: 360px;
+    max-height: 360px;
     max-width: 730px;
     margin: 0 auto;
   }
   &__subtitle {
-    padding-top: 30px;
     padding-bottom: 5px;
     font-family: $main-font;
     font-size: 14px;
@@ -71,6 +78,7 @@
     font-weight: bold;
     @include tablet {
       max-width: 100%;
+      padding-top: 10px;
       padding-bottom: 25px;
       font-size: 26px;
     }
@@ -79,12 +87,13 @@
     }
   }
   &__text {
+    padding-top: 20px;
+    padding-bottom: 30px;
     font-family: $main-font;
     font-size: 18px;
     font-weight: normal;
     line-height: 1.67;
     color: $brown-text;
-    padding-bottom: 30px;
     font-size: 18px;
     @include desktop {
       font-size: 20px;
@@ -94,7 +103,7 @@
     display: block;
     height: 45px;
     width: 76px;
-    background-color: white;
+    background-color: transparent;
     border-radius: 22.5px;
     color: $orange;
     font-family: $main-font;
@@ -103,6 +112,7 @@
     line-height: 45px;
     text-align: center;
     border: 2px $orange solid;
+    transition: all 0.5s ease 0.1s;
     @include tablet {
       width: 91px;
     }
@@ -112,8 +122,9 @@
     &:hover {
       background-color: $orange;
       color: white;
-      transform: scale(1.2);
-      transition: all 0.3s ease 0.1s;
+      transform: scale(1.1);
+      -webkit-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
+      box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.48);
     }
   }
 }
