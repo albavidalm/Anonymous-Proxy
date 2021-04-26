@@ -4,7 +4,7 @@ En este proyecto he desarrollado una página web a partir de un diseño dado don
 
 - Estructura y semántica en el HTML.
 - Sass.
-- Flexbox (en el primer apartado y en el footer) y CSS Grid (en el apartado 3 reasons).
+- Flexbox (en el hero, en el primer apartado y en el footer) y CSS Grid (en el apartado 3 reasons).
 - Media queries.
 - Transiciones (en el hover de los botones).
 - Animación (en el botón scroll inferior).
