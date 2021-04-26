@@ -12,7 +12,13 @@ Puedes ver el resultado pinchando en el enlace que encontrarás en la sección A
 
 ### Compartir es vivir:
 
-Si quieres hacerme cualquier sugerencia para mejorarlo o, proponerme otra manera diferente de hacerlo también puedes descargarte el código y arrancarlo en tu terminal. Para ello ejecuta el comando:
+Si quieres hacerme cualquier sugerencia para mejorarlo o, proponerme otra manera diferente de hacerlo también puedes descargarte el código, instalarlo y arrancarlo en tu terminal. Para ello ejecuta el comando:
+
+```bash
+npm install
+```
+
+y después el
 
 ```bash
 npm start
