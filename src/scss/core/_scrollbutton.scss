@@ -23,12 +23,3 @@
   margin: 0 auto;
   animation: updown 0.8s infinite alternate;
 }
-
-@keyframes updown {
-  from {
-    transform: translateY(-5px);
-  }
-  to {
-    transform: translateY(15px);
-  }
-}

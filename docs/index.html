@@ -4,13 +4,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <title>Alba Vidal</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
 
 <body>
-
+  <header class="header-burger">
+    <div class="burger-ico"><a class="burger-ico__link" href="http://adalab.es" target="_blank" alt="Menu" title="Menu"><img class="lines" src="./assets/images/ico-menu.svg"></a>
+    </div>
+  </header>
+  <main>
+    <section class="hero" id="top-page">
+      <h1 class="hero__title">Anonimous Proxy</h1>
+      <h3 class="hero__claim">In hac habitasse platea dictumst.</h3>
+      <div class="scroll-button">
+        <a class="scroll-button__link" href="#3reasons" alt="Arrow down" title="Go to 3 reasons to purchase"><img class="scroll-button__img" src="./assets/images/ico-scroll-down.svg" alt="Down arrow" title="Down arrow"></a>
+      </div>
+    </section>
+    <section class="looking wrapper">
+      <h4 class="looking__subtitle">Insomnia Tips</h4>
+      <h2 class="looking__title">Looking Trough A Window</h2>
+      <p class="looking__text">Donec accumsan, nulla ut volutpat porttior, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+      <div class="looking__go"><a class="looking__link" href=" http://adalab.es" target="_blank" alt="Go button" title="Go">Go</a></div>
+    </section>
+    <section class="action" id="3reasons">
+      <h2 class="action__title">3 Reasons To Purchase</h2>
+      <div class="reasons-container">
+        <article class="reasons reason1">
+          <h3 class="reasons__title">Ut sed metus</h3>
+          <p class="reasons__text">Lorem ipsum dolor sit amet consectetur.</p>
+        </article>
+        <article class="reasons reason2">
+          <h3 class="reasons__title">Curabitur ac erat</h3>
+          <p class="reasons__text">Mauris mattis urna quis lorem molestie.</p>
+        </article>
+        <article class="reasons reason3">
+          <h3 class="reasons__title">Morbi dictum</h3>
+          <p class="reasons__text">Aliquam in dolor et dolor tincidunt.</p>
+        </article>
+      </div>
+      <div class="action__button"><a class="action__button--link" href="http://adalab.es" target="_blank" alt="More reasons" title="More reasons">More reasons</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="scroll-button up">
+      <a class="scroll-button__link" href="#top-page" alt="Arrow up" title="Go to top"><img class="scroll-button__img" src="./assets/images/ico-arrow.svg" alt="Up arrow" title="Up arrow"></a>
+    </div>
+    <section class="footer__info wrapper">
+      <aside>
+        <ul class="footer__aside">
+          <li class="footer__aside--related">
+            <a class="footer__aside--link" href="http://adalab.es/" alt="Articles" title="Articles" target="_blank">Articles</a>
+          </li>
+          <li class="footer__aside--related">
+            <a class="footer__aside--link" href="http://adalab.es/" alt="Books" title="Books" target="_blank">Books</a>
+          </li>
+          <li class="footer__aside--related">
+            <a class="footer__aside--link" href="http://adalab.es/" alt="Events" title="Events" target="_blank">Events</a>
+          </li>
+          <li class="footer__aside--related">
+            <a class="footer__aside--link" href="http://adalab.es/" alt="Reasons" title="Reasons" target="_blank">Reasons</a>
+          </li>
+          <li class="footer__aside--related">
+            <a class="footer__aside--link" href="http://adalab.es/" alt="Tips" title="Tips" target="_blank">Tips</a>
+          </li>
+        </ul>
+      </aside>
+      <nav>
+        <ul class="footer__social">
+          <li class="footer__social--rrss"><a class="footer__social--link" href="http://adalab.es/" alt="Twitter" title="Twitter" target="_blank">Twitter</a></li>
+          <li class="footer__social--rrss"><a class="footer__social--link" href="http://adalab.es/" alt="Instagram" title="Instagram" target="_blank">Instagram</a></li>
+          <li class="footer__social--rrss"><a class="footer__social--link" href="http://adalab.es/" alt="Mastodon" title="Mastodon.social" target="_blank">Mastodon.social</a></li>
+        </ul>
+      </nav>
+      <section class="footer__copy">
+        <small class="footer__copy--right">&copy2021</small>
+        <small class="footer__copy--claim">we <span class="footer__copy--heart">&#x2764;</span> components</small>
+      </section>
+    </section>
+  </footer>
 </body>
 
 </html>
